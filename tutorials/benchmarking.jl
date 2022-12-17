@@ -25,10 +25,10 @@ title = "$title"
 md"""
 # $title
 
-This notebook shows some `@benchmark` and `@code_warntype` output.
-Both outputs are shown via the `with_terminal` from [PlutoUI.jl](https://github.com/JuliaPluto/PlutoUI.jl), see below.
+Este notebook contiene output de los macros `@benchmark` and `@code_warntype`.
+Ambos se muestran con `with_terminal` que viene de [PlutoUI.jl](https://github.com/JuliaPluto/PlutoUI.jl), véase abajo.
 
-We define some function `double` and a dictionary of numbers in order to show type inference problems via `@code_warntype`:
+Definimos una función `double` y un diccionario de tipos para mostrar los problemas de "type inference" (inferencia de tipos) via `@code_warntype`:
 """
 
 # ╔═╡ 90cb7685-09fc-4f2a-88c9-64fada9e50d0
